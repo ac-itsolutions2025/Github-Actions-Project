@@ -17,7 +17,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn compile
+      run: mvn compile  # Make sure maven is install in your self-hosted vm
 
 
   security-check:
