@@ -6,7 +6,7 @@ on:
   
 jobs:
   compile:
-    runs-on: self-hosted
+    runs-on: self-hosted #Use your self-hosted runners in running your pipelines for security.
 
     steps:
     - uses: actions/checkout@v4
